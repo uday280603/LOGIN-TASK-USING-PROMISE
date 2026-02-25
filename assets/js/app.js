@@ -18,6 +18,7 @@ function onFormSubmit( eve){
             icon:'success',
             timer:2000
         })
+        loginForm.reset()
        })
        .catch((err)=>{
         Swal.fire({
