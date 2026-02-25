@@ -10,7 +10,7 @@ function onFormSubmit( eve){
         email : emailControl.value,
         password : passwordControl.value
     }
-    cl(obj);
+    // cl(obj);
     login(obj.email,obj.password)
        .then((res) =>{
         Swal.fire({
